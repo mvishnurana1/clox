@@ -6,6 +6,5 @@ int main(int argc, const char* argv[]) {
     initChunk(&chunk);
     writeChunk(&chunk, OP_RETURN);
     freeChunk(&chunk);
-
     return 0;
 }
